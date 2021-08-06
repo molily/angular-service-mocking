@@ -1,0 +1,3 @@
+<button (click)="flipACoin()" data-testid="flip-coin-button">Flip a coin!</button>
+
+<p *ngIf="result !== null" data-testid="output">{{ result ? 'heads' : 'tails' }}</p>
